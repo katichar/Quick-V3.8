@@ -2,3 +2,7 @@ build/cocos2d_libs副本.xcodeproj/
 build/wp8/
 build/winrt/
 build/cocos2d_tests.xcodeproj/
+external/._.DS_Store
+external/.DS_Store
+external/Box2D/proj.win32/Debug.win32/
+external/bullet/proj.win32/Debug.win32/
