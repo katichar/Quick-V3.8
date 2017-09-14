@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a6132e89-16ae-449c-ad50-b0409290423e++7032",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a6132e89-16ae-449c-ad50-b0409290423e++7032" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a6132e89-16ae-449c-ad50-b0409290423e++7032" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "596777AB-0C90-4FC3-BFF8-24F88BEFC2EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a6132e89-16ae-449c-ad50-b0409290423e++7032" : "v3_8quick\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "player3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "quick\/player\/proj.mac\/player3.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/katichar.top",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a6132e89-16ae-449c-ad50-b0409290423e++7032"
+    }
+  ]
+}
