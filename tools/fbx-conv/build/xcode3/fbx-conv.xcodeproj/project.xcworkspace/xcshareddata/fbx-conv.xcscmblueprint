@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a6132e89-16ae-449c-ad50-b0409290423e++9913",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a6132e89-16ae-449c-ad50-b0409290423e++9913" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "852ED3691A47A99B0D19C820A500AE9772B2A44E" : 0,
+    "a6132e89-16ae-449c-ad50-b0409290423e++9913" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8523B213-BF4E-455A-A71A-C2972B75E98A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "852ED3691A47A99B0D19C820A500AE9772B2A44E" : "..",
+    "a6132e89-16ae-449c-ad50-b0409290423e++9913" : "fbx-conv\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "fbx-conv",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "build\/xcode3\/fbx-conv.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ukid\/v3quick.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "852ED3691A47A99B0D19C820A500AE9772B2A44E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cocos2d-x\/fbx-conv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a6132e89-16ae-449c-ad50-b0409290423e++9913"
+    }
+  ]
+}

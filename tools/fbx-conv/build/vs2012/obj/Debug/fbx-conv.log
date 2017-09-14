@@ -1,0 +1,85 @@
+﻿生成启动时间为 2016-12-06 09:50:35。
+     1>项目“C:\cocos\v3_8quick\tools\fbx-conv\build\vs2012\fbx-conv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include" /I..\..\libs\libpng\include /I..\..\libs\zlib\include /ZI /nologo /W3 /WX- /Od /Oy- /D FBXSDK_NEW_API /D DEBUG /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\src\main.cpp ..\..\src\modeldata\C3BFile.cpp ..\..\src\modeldata\FileIO.cpp ..\..\src\modeldata\Reference.cpp ..\..\src\modeldata\ReferenceTable.cpp ..\..\src\modeldata\Serialization.cpp ..\..\src\modeldata\WriteBinnary.cpp
+         main.cpp
+         C3BFile.cpp
+         FileIO.cpp
+         Reference.cpp
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\reference.cpp(13): warning C4244: “初始化”: 从“float”转换到“long”，可能丢失数据
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\reference.cpp(23): warning C4244: “初始化”: 从“float”转换到“long”，可能丢失数据
+         ReferenceTable.cpp
+         Serialization.cpp
+         WriteBinnary.cpp
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(114): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(117): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(126): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(141): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(143): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(163): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(171): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(172): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(173): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\C3BFile.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\c3bfile.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(114): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(117): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(126): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(141): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(143): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(163): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(171): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(172): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(173): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(235): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(243): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(245): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(251): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(375): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(440): warning C4018: “<=”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(441): warning C4018: “<=”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(545): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(547): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(559): warning C4018: “>”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(562): warning C4018: “>=”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(646): warning C4244: “参数”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(649): warning C4244: “参数”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(676): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(697): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(1112): warning C4244: “参数”: 从“const double”转换到“const float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\readers\fbxconverter.h(1122): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据 (..\..\src\main.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(114): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(117): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(126): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(141): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(143): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(163): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(171): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(172): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(173): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\Serialization.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\serialization.cpp(237): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(114): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(117): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(126): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\node.h(141): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(143): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(163): warning C4018: “<”: 有符号/无符号不匹配 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(171): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(172): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\mesh.h(173): warning C4244: “=”: 从“fbxsdk::FbxDouble”转换到“float”，可能丢失数据 (..\..\src\modeldata\WriteBinnary.cpp)
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\writebinnary.cpp(169): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\writebinnary.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\cocos\v3_8quick\tools\fbx-conv\src\modeldata\writebinnary.cpp(252): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\fbx-conv.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2013\x86" /LIBPATH:"C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2013\x86\debug" /LIBPATH:..\..\libs\libpng\lib\windows\x86 /LIBPATH:..\..\libs\zlib\lib\windows\x86 libpng14.lib zlib.lib "libfbxsdk-md.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\fbx-conv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\fbx-conv.lib" /MACHINE:X86 obj\Debug\main.obj
+         obj\Debug\C3BFile.obj
+         obj\Debug\FileIO.obj
+         obj\Debug\Reference.obj
+         obj\Debug\ReferenceTable.obj
+         obj\Debug\Serialization.obj
+         obj\Debug\WriteBinnary.obj
+         fbx-conv.vcxproj -> C:\cocos\v3_8quick\tools\fbx-conv\build\vs2012\..\..\fbx-conv.exe
+     1>已完成生成项目“C:\cocos\v3_8quick\tools\fbx-conv\build\vs2012\fbx-conv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.06
